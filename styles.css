@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+}
+
+header {
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 40px;
+}
+
+header p {
+  margin: 20px 40px;
+}
+
+.section1 {
+  background-color: #3b8637;
+  height: 350px;
+  text-align: center;
+  padding: 50px 0px;
+  font-family: "space mono", monospace;
+}
+
+.florist:hover {
+  color: #79b3f4;
+  cursor: pointer;
+}
+
+.section2 {
+  height: 1300px;
+  background-color: #009aff;
+  font-size: 200%;
+  font-family: "space mono", monospace;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section2Title {
+  flex: 0 0 80%;
+  font-family: "Roboto Mono", monospace;
+  margin-left: 40px;
+}
+
+.section2Wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.section2Images {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  flex-grow: 1;
+}
+
+.section2Text p {
+  width: 800px;
+  margin: 0 40px;
+  padding: 30px 0;
+}
+
+.highlight {
+  background-color: #dcd8d8;
+  font-weight: bolder;
+}
+
+img {
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  margin: 3px;
+  padding: 3px;
+}
+
+.section3 {
+  height: 1100px;
+  text-align: center;
+  padding: 100px;
+  background-color: #fcb719;
+  font-size: 200%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: "space mono", monospace;
+}
+
+.section3 h1 {
+  text-align: justify;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.section4 h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 45px;
+  text-align: center;
+  flex: 0 0 80%;
+}
+
+.project {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+
+ /* position:absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); Black see-through */
+   /* color: #f1f1f1;  
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;   */
+}
+
+.projectWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 0 30px;
+}
+
+.projectCard p {
+  font-family: "space mono", monospace;
+  padding: 0 0 0 30px;
+  width: 250px;
+}
+
+svg {
+
+    width: 30px;
+    height: 30px;
+    margin: 16px 0px;
+    padding: 0 0 0 30px;
+}
