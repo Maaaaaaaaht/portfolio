@@ -3,29 +3,45 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
   font-family: "Roboto Mono", monospace;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   font-size: 40px;
+  background-color: white;
+  width: 100%;
 }
 
 header p {
   margin: 20px 40px;
 }
 
+.home:hover {
+  color: #3b8637;
+}
+
+.about:hover {
+  color: #009aff;
+}
+
+.work:hover {
+  color: #fcb719;
+}
+
 .section1 {
   background-color: #3b8637;
-  height: 350px;
+  height: 100%;
   text-align: center;
-  padding: 50px 0px;
+  padding: 170px 0;
   font-family: "space mono", monospace;
 }
 
-.florist:hover {
+/* .florist:hover {
   color: #79b3f4;
   cursor: pointer;
-}
+} */
 
 .section2 {
   height: 100%;
@@ -117,8 +133,8 @@ img {
 }
 
 svg {
-    width: 30px;
-    height: 30px;
-    margin: 16px 0px;
-    padding: 0 0 0 30px;
+  width: 30px;
+  height: 30px;
+  margin: 16px 0px;
+  padding: 0 0 0 30px;
 }
