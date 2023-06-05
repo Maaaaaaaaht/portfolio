@@ -38,11 +38,6 @@ header p {
   font-family: "space mono", monospace;
 }
 
-/* .florist:hover {
-  color: #79b3f4;
-  cursor: pointer;
-} */
-
 .section2 {
   height: 100%;
   background-color: #009aff;
@@ -60,14 +55,28 @@ header p {
 
 .section2Wrapper {
   display: flex;
-  flex-direction: row;
 }
 
 .section2Images {
   display: flex;
   flex-direction: column;
-  justify-content: right;
-  flex-grow: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section2Wrapper {
+    flex-direction: column;
+  }
+
+  .section2Images {
+    flex-direction: row;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .section2Images {
+    flex-direction: column;
+  }
 }
 
 .section2Text p {

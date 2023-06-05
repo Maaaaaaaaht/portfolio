@@ -5,10 +5,10 @@ const scrollFunction = (value) => {
       .scrollIntoView({ behavior: "smooth" });
   }
   if (value == "about") {
-    var element = document.getElementsByClassName("section2")[0];
-    var elementPosition = element.getBoundingClientRect().top;
-    var headerOffset = 80;
-    var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+    const element = document.getElementsByClassName("section2")[0];
+    const elementPosition = element.getBoundingClientRect().top;
+    const headerOffset = 80;
+    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
     window.scrollTo({
       top: offsetPosition,
       behavior: "smooth",
